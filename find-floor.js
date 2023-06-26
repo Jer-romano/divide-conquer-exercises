@@ -5,12 +5,6 @@
  * findFloor([1,2,8,10,10,12,19], 9) // 8
    findFloor([1,2,8,10,10,12,19], 20) // 19
    findFloor([1,2,8,10,10,12,19], 0) // -1
-   left = 0
-   right = 2
-   mid =  1
-   array[mid] = 2
-    expect(findFloor([1, 2, 8, 10, 10, 12, 19], 5)).toBe(2) // 2
-                      0  1  2  3   4
  */
 function findFloor(array, value) {
     if(array[0] > value) return -1;
